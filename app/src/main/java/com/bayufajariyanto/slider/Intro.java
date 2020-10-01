@@ -69,6 +69,8 @@ public class Intro extends AppCompatActivity {
         });
     }
 
+
+
     private void bottomProgressDots(int index){
         LinearLayout dotsLayout = findViewById(R.id.layoutDots);
         ImageView[] dots = new ImageView[MAX_STEP];
@@ -111,6 +113,16 @@ public class Intro extends AppCompatActivity {
 
         }
     };
+
+    public void clickGetStarted(View view){
+        Intent i = new Intent(Intro.this, WelcomeBack.class);
+        startActivity(i);
+    }
+
+    public void clickLogin(View view){
+        Intent i = new Intent(Intro.this, WelcomeBack.class);
+        startActivity(i);
+    }
 
     public class MyViewPagerAdapter extends PagerAdapter {
 

@@ -35,8 +35,7 @@
             app:layout_constraintBottom_toTopOf="@id/login_text"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            android:onClick="clickGetStarted"/>
+            app:layout_constraintRight_toRightOf="parent"/>
         <LinearLayout
             android:id="@+id/layoutDots"
             android:layout_width="match_parent"
@@ -61,6 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="SKIP"
-            android:textColor="@android:color/white"/>
+            android:textColor="@android:color/white"
+            android:onClick="clickLogin" />
     </LinearLayout>
 </RelativeLayout>
