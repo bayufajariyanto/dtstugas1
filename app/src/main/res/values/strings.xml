@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DtsChapter03-starter</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="sign_in_to_continue">Sign in to Continue</string>
+    <string name="log_in">Log In</string>
+    <string name="get_started">Get Started</string>
+</resources>
